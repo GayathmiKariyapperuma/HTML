@@ -63,8 +63,8 @@ imgcontainer {
 
 .close {
 	position: absolute;
-	right: 500px;
-	top: 8%;
+	right: 700px;
+	top: 9%;
 	color: #000;
 	font-size: 35px;
 	font-weight: bold;
@@ -90,6 +90,7 @@ imgcontainer {
 	to {transform: scale(1)}
   }
   
+
 
 .login-box {
 	background-color: white;
