@@ -145,12 +145,12 @@
     outline: none;
     font-weight: bold;
     animation-name: test;
-    animation-duration: 4s;
+    animation-duration: 30s;
   }
 
   @keyframes test {
     from {background-color: #4dbf00;}
-    to {background-color: #ffff00;}
+    to {background-color: #ff001e;}
   }
   
   .movie-list-container {
