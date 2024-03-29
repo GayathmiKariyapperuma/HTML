@@ -144,6 +144,13 @@
     border: none;
     outline: none;
     font-weight: bold;
+    animation-name: test;
+    animation-duration: 4s;
+  }
+
+  @keyframes test {
+    from {background-color: #4dbf00;}
+    to {background-color: #ffff00;}
   }
   
   .movie-list-container {
