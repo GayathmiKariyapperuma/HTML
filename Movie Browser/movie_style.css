@@ -296,3 +296,8 @@
           display: none;
       }
   }
+
+  .popular-item {
+    margin-left: 100px;
+    color:#ffff;
+  }

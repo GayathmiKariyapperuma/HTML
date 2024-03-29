@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="movie_style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Browser</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">CineFlix</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <a href="movie_browser.html"><li class="menu-list-item active">Home</li></a>
+                    <a href="#movies"><li class="menu-list-item">Movies</li></a>
+                    <a href="#series"><li class="menu-list-item">Series</li></a>
+                    <a href="popular.html"><li class="menu-list-item">Popular</li></a>
+                    <a href="#trends"><li class="menu-list-item">Trends</li></a>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="https://www.pngfind.com/pngs/m/470-4703547_icon-user-icon-hd-png-download.png" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i><br/>
+        <a href="movie_browser.html"><i class="left-menu-icon fas fa-home"></i></a><br/>
+        <a href="#users"><i class="left-menu-icon fas fa-users"></i></a><br/>
+        <a href="#bookmark"><i class="left-menu-icon fas fa-bookmark"></i></a><br/>
+        <a href="#tv"><i class="left-menu-icon fas fa-tv"></i></a><br/>
+        <a href="#time"><i class="left-menu-icon fas fa-hourglass-start"></i></a><br/>
+        <a href="#cart"><i class="left-menu-icon fas fa-shopping-cart"></i></a><br/>
+    </div>
+    <div class="container">
+        <table class="popular-item" style="width:50%">
+            <caption>Choose the Genre</caption>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+          </table>
+    </div>
+</body>
+</html>
